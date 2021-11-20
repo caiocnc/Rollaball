@@ -6,6 +6,7 @@ using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
+    //ddddd teste
     public float speed = 0;
     public TextMeshProUGUI countText;
     public GameObject winTextObject;
