@@ -20,11 +20,16 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         count = 0;
-
+        int test = 0;
+        int test3 = 3;
+        
         SetCountText();
         winTextObject.SetActive(false);
     }
-
+    void teste()
+    {
+        int teste84 = 2;
+    }
     void OnMove(InputValue movementValue)
     {
         Vector2 movementVector = movementValue.Get<Vector2>();
