@@ -28,6 +28,15 @@ public class PlayerController : MonoBehaviour
     void testao (int teste)
     {
         int teste2 = teste;
+        int test = 0;
+        int test3 = 3;
+        
+        SetCountText();
+        winTextObject.SetActive(false);
+    }
+    void teste()
+    {
+        int teste84 = 2;
     }
     void OnMove(InputValue movementValue)
     {
